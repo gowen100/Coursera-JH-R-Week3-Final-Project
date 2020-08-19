@@ -20,7 +20,8 @@ The columns included in the output file are listed below:
 subject - An id identifying the experiment participant<br>
 activitylabel - A description of the activity generating the readings
 
-The following columns are derived from the observation data. More info is available here http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+The following columns are derived from the observation data. More info is available here http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones<br>
+  
 "bodyaccmeanx"                "bodyaccmeany"               
 "bodyaccmeanz"                "bodyaccstdx"                 "bodyaccstdy"                 "bodyaccstdz"                
 "gravityaccmeanx"             "gravityaccmeany"             "gravityaccmeanz"             "gravityaccstdx"             
