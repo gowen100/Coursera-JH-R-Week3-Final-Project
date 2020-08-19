@@ -22,25 +22,83 @@ activitylabel - A description of the activity generating the readings
 
 The following columns are derived from the observation data. More info is available here http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones<br>
   
-"bodyaccmeanx"                "bodyaccmeany"               
-"bodyaccmeanz"                "bodyaccstdx"                 "bodyaccstdy"                 "bodyaccstdz"                
-"gravityaccmeanx"             "gravityaccmeany"             "gravityaccmeanz"             "gravityaccstdx"             
-"gravityaccstdy"              "gravityaccstdz"              "bodyaccjerkmeanx"            "bodyaccjerkmeany"           
-"bodyaccjerkmeanz"            "bodyaccjerkstdx"             "bodyaccjerkstdy"             "bodyaccjerkstdz"            
-"bodygyromeanx"               "bodygyromeany"               "bodygyromeanz"               "bodygyrostdx"               
-"bodygyrostdy"                "bodygyrostdz"                "bodygyrojerkmeanx"           "bodygyrojerkmeany"          
-"bodygyrojerkmeanz"           "bodygyrojerkstdx"            "bodygyrojerkstdy"            "bodygyrojerkstdz"           
-"bodyaccmagmean"              "bodyaccmagstd"               "gravityaccmagmean"           "gravityaccmagstd"           
-"bodyaccjerkmagmean"          "bodyaccjerkmagstd"           "bodygyromagmean"             "bodygyromagstd"             
-"bodygyrojerkmagmean"         "bodygyrojerkmagstd"          "bodyaccmeanx"                "bodyaccmeany"               
-"bodyaccmeanz"                "bodyaccstdx"                 "bodyaccstdy"                 "bodyaccstdz"                
-"bodyaccmeanfreqx"            "bodyaccmeanfreqy"            "bodyaccmeanfreqz"            "bodyaccjerkmeanx"           
-"bodyaccjerkmeany"            "bodyaccjerkmeanz"            "bodyaccjerkstdx"             "bodyaccjerkstdy"            
-"bodyaccjerkstdz"             "bodyaccjerkmeanfreqx"        "bodyaccjerkmeanfreqy"        "bodyaccjerkmeanfreqz"       
-"bodygyromeanx"               "bodygyromeany"               "bodygyromeanz"               "bodygyrostdx"               
-"bodygyrostdy"                "bodygyrostdz"                "bodygyromeanfreqx"           "bodygyromeanfreqy"          
-"bodygyromeanfreqz"           "bodyaccmagmean"              "bodyaccmagstd"               "bodyaccmagmeanfreq"         
-"bodybodyaccjerkmagmean"      "bodybodyaccjerkmagstd"       "bodybodyaccjerkmagmeanfreq"  "bodybodygyromagmean"        
-"bodybodygyromagstd"          "bodybodygyromagmeanfreq"     "bodybodygyrojerkmagmean"     "bodybodygyrojerkmagstd"     
-"bodybodygyrojerkmagmeanfreq"
+bodyaccmeanx
+bodyaccmeanz
+gravityaccmeanx
+gravityaccstdy
+bodyaccjerkmeanz
+bodygyromeanx
+bodygyrostdy
+bodygyrojerkmeanz
+bodyaccmagmean
+bodyaccjerkmagmean
+bodygyrojerkmagmean
+bodyaccmeanz
+bodyaccmeanfreqx
+bodyaccjerkmeany
+bodyaccjerkstdz
+bodygyromeanx
+bodygyrostdy
+bodygyromeanfreqz
+bodybodyaccjerkmagmean
+bodybodygyromagstd
+bodybodygyrojerkmagmeanfreq
+bodyaccmeany
+bodyaccstdx
+gravityaccmeany
+gravityaccstdz
+bodyaccjerkstdx
+bodygyromeany
+bodygyrostdz
+bodygyrojerkstdx
+bodyaccmagstd
+bodyaccjerkmagstd
+bodygyrojerkmagstd
+bodyaccstdx
+bodyaccmeanfreqy
+bodyaccjerkmeanz
+bodyaccjerkmeanfreqx
+bodygyromeany
+bodygyrostdz
+bodyaccmagmean
+bodybodyaccjerkmagstd
+bodybodygyromagmeanfreq
+bodyaccstdy
+gravityaccmeanz
+bodyaccjerkmeanx
+bodyaccjerkstdy
+bodygyromeanz
+bodygyrojerkmeanx
+bodygyrojerkstdy
+gravityaccmagmean
+bodygyromagmean
+bodyaccmeanx
+bodyaccstdy
+bodyaccmeanfreqz
+bodyaccjerkstdx
+bodyaccjerkmeanfreqy
+bodygyromeanz
+bodygyromeanfreqx
+bodyaccmagstd
+bodybodyaccjerkmagmeanfreq
+bodybodygyrojerkmagmean
+bodyaccstdz
+gravityaccstdx
+bodyaccjerkmeany
+bodyaccjerkstdz
+bodygyrostdx
+bodygyrojerkmeany
+bodygyrojerkstdz
+gravityaccmagstd
+bodygyromagstd
+bodyaccmeany
+bodyaccstdz
+bodyaccjerkmeanx
+bodyaccjerkstdy
+bodyaccjerkmeanfreqz
+bodygyrostdx
+bodygyromeanfreqy
+bodyaccmagmeanfreq
+bodybodygyromagmean
+bodybodygyrojerkmagstd
 
