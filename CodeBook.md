@@ -1,7 +1,7 @@
 
-#Cleaning and Getting Data course project code book
+# Cleaning and Getting Data course project code book
 
-###Analysis process
+### Analysis process
 
 The analysis script, run_analysis.R reads in the processed experiment data and performs a number of steps to get it into summary form.
 
@@ -14,12 +14,12 @@ The data is then grouped by subject and activity, and the mean is calculated for
 Finally, the summary dataset is written to a file, run_data_summary.txt.
 Each line in run_analysis.R is commented. Reference the file for more information on this process.
 
-###Columns in output file
+### Columns in output file
 The columns included in the output file are listed below:
 
 subject_id - An id identifying the experiment participant.
 activitylabel - The name of the activity that the measurements correspond to, such as  LAYING or WALKING.
 
-###More info
+### More info
 
 Detailed information on the experiment and the data can be found in the README.txt and features_info.txt files included in the experiment data zip file or find more information on the dataset homepage.
