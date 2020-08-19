@@ -17,5 +17,5 @@ subject data identifying the experimental subject.
 ### Columns in output file
 The columns included in the output file are listed below:
 
-subject - An id identifying the experiment participant
+subject - An id identifying the experiment participant<br>
 activitylabel - A description of the activity generating the readings
