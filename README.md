@@ -19,8 +19,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ### Getting started
 
-  1. Read through the [CodeBook](CodeBook.md) and the [run_analysis.R](run_analysis.R) to understand the steps taken to transform the data from it's original raw state to it's the outputted tidy state
+  1. Read through the [CodeBook](CodeBook.md) and the [run_analysis.R](run_analysis.R) to understand the steps taken to transform the data from it's original raw state 
+  to it's the outputted tidy state
   
-  2.Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and extract.
+  2. Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and extract.
   
   3. Run  `run_analysis.R` to generate the output file.
