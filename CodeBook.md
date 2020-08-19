@@ -3,22 +3,24 @@
 
 ### Analysis process
 
-The analysis script, run_analysis.R reads in the processed experiment data and performs a number of steps to get it into summary form.
+The analysis script, run_analysis.R reads the raw data from the experiment and outputs a tidy summarised data file.
 
-Both the processed test and training datasets are read in and merged into one data frame.
-The data columns are then given names based on the features.txt file.
-Columns that hold mean or standard deviation measurements are selected from the dataset, while the other measurement columns are excluded from the rest of the analysis.
-The activity identifiers are replaced with the activity labels based on the activity_labels.txt file.
-Invalid characters (() and - in this case) are removed from the column names. Also, duplicate phrase BodyBody in some columns names is replaced with Body.
+* The test and training data sets are run in. These comprise the x data which is the smartphone sensor data,the y data which is the activity producing the readings and the 
+subject data identifying the experimental subject.
+* The features.txt file is used to label columns derived from the x data (smartphone readings)
+* The activity_labels.txt file is used to replace numeric activity levels with more meaningful names such as WALKING.
+* Columns containing mean or standard deviation data are extracted from the file
+
+
 The data is then grouped by subject and activity, and the mean is calculated for every measurement column.
-Finally, the summary dataset is written to a file, run_data_summary.txt.
-Each line in run_analysis.R is commented. Reference the file for more information on this process.
+Finally, the summary dataset is written to a file, data_summary.txt.
+
 
 ### Columns in output file
 The columns included in the output file are listed below:
 
-subject_id - An id identifying the experiment participant.
-activitylabel - The name of the activity that the measurements correspond to, such as  LAYING or WALKING.
+subject - An id identifying the experiment participant
+activitylabel - A description of the activity generating the readings
 
 ### More info
 
