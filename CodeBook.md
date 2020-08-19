@@ -10,10 +10,8 @@ subject data identifying the experimental subject.
 * The features.txt file is used to label columns derived from the x data (smartphone readings)
 * The activity_labels.txt file is used to replace numeric activity levels with more meaningful names such as WALKING.
 * Columns containing mean or standard deviation data are extracted from the file
-
-
-The data is then grouped by subject and activity, and the mean is calculated for every measurement column.
-Finally, the summary dataset is written to a file, data_summary.txt.
+* The columns are grouped on activity and subject and means calcluated
+* This analysis is output to a file 
 
 
 ### Columns in output file
@@ -21,7 +19,3 @@ The columns included in the output file are listed below:
 
 subject - An id identifying the experiment participant
 activitylabel - A description of the activity generating the readings
-
-### More info
-
-Detailed information on the experiment and the data can be found in the README.txt and features_info.txt files included in the experiment data zip file or find more information on the dataset homepage.
